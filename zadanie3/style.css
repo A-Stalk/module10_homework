@@ -1,0 +1,73 @@
+.btn_send,
+.btn_geo {
+  background-color: rgb(156, 244, 142);
+  box-shadow: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: black;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 4px #999;
+}
+.btn_send:hover,
+.btn_geo:hover {
+  box-shadow: 0 4px #999;
+  transform: scale(1.05);
+}
+.btn_send:active,
+.btn_geo:active {
+  background-color: rgb(61, 211, 38);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.inpText {
+  width: 250px;
+  height: 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.upper {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.chat_field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+  overflow-y: scroll;
+}
+.solution {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin: 4px;
+}
+.message_received {
+  background-color: rgb(196, 251, 255);
+  border-radius: 5px;
+  padding: 8px;
+  margin-left: 10px;
+  float: left;
+}
+.message_sent {
+  background-color: rgb(233, 255, 196);
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 10px;
+  float: right;
+}
+.message_geo {
+  background-color: rgb(255, 228, 196);
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 10px;
+  float: right;
+}
